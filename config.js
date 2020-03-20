@@ -1,7 +1,7 @@
 var firebaseConfig = {
     apiKey: "####################",
     authDomain: "####################",
-    databaseURL: "###################33",
+    databaseURL: "#####################",
     projectId: "########",
     storageBucket: "###############",
     messagingSenderId: "##########",
