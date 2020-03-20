@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+    <!--Custom Style Sheet-->
+    <link rel="stylesheet" type="text/css" href="loginpage_styles.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <!--Icons-->
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.12.1-web/fontawesome-free-5.12.1-web/css/all.css">
+    <title>WATCHDOG</title>
+</head>
+<body class="bg">
+<div class="container-fluid logo" >
+    <div class="row justify-content-center" >
+        <div class="">
+            <div>
+                <h1 class="text-center tracking-in-expand" style="font-size: 4rem;">WATCHDOG</h1>
+            </div>
+        </div>
+            
+    </div>
+</div>
+
+<section class="container-fluid fade-in">
+    <section class="row justify-content-center">
+        <section class="col-12 col-sm-8 col-md-6 col-lg-3">
+            <div class="form-container text-center">
+                <div class="form-group ">
+                    <label for="InputEmail" >Email address</label>
+                    <input type="email" class="fields form-control input-text text-center" id="InputEmail"  placeholder="example@rahman.com">
+                </div>
+                <div class="form-group">
+                    <label for="InputPassword">Password</label>
+                    <input type="password" class="fields form-control input-text text-center" id="InputPassword" placeholder="*******">
+                </div>
+                <button  onclick="login()" class="btn  btn-primary button">Login</button>
+            </div>
+        </section>
+    </section>
+</section>
+<body class="bg">
+    <div class="container-fluid" >
+        <div class="row justify-content-center" >
+            <div class="col-12 col-sm-8 col-md-3">
+                <div>
+                    <br>
+                    <p class="text-center credits"><a href="https://arabdulrahman671.github.io/MyPortfolio/index.html" target="_blank" class="link">Mohd Abdul Rahman <i class="fab fa-github" ></i></a></p>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+
+<!--Fire Base-->
+
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+<script type="text/javascript" src="config.js"></script>
+
+<!--Login Script-->
+<script type="text/javascript" src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    
+    <!--Custom Style Sheet-->
+    <link rel="stylesheet" type="text/css" href="loginpage_styles.css">
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <title>Dashboard</title>
+  </head>
+  <body class="bg">
+  <nav class="navbar nav sticky-top text-center" id="navigation">
+    <h1 class="navbar-brand logo-dashboard jello-horizontal">WATCHDOG</h1>
+    <button onclick="logout()" class="button btn btn-warning" style="float: right;">Log Out</button>
+  </nav>
+
+    <div class="container-fluid hello-msg ">
+      <div class="row justify-content-center ">
+        <div>
+          <h2>Hello! <span id="user-name"></span></h2>
+
+        </div>
+
+      </div>
+    </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center text-center" style="color: #efa2a9">
+      <div >
+        <p>Images Captured as of <span id="date-time"></span> are Following</p>
+      </div>
+    </div>
+  </div>
+  <!--Displaying Images-->
+  <div class="container-fluid" id="images=bucket">
+
+  </div>
+
+    <!--Fire Base-->
+
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-storage.js"></script>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="dashboard.js"></script>
+  </body>
+</html>
